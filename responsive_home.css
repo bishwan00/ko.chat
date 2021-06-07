@@ -1,0 +1,49 @@
+
+
+
+@media only screen and (max-width : 1270px){
+ .addmin{
+    margin-left: 6%;
+ }
+ .search_box{
+  
+    width: 20%;
+ }
+    }
+    
+    @media only screen and (max-width : 1000px){
+        .addmin{
+            margin-left: 6%;
+         }
+         .search_box{
+          
+            width: 15%;
+         }
+            }
+    
+    
+    @media only screen and (max-width : 795px){
+        .addmin{
+            margin-left: 3%;
+         }
+         .search_box{
+          
+            width: 15%;
+         }
+    }
+    
+    
+    @media only screen and (max-width : 720px){
+    
+    }
+    @media only screen and (max-width : 675px){
+    
+    }
+    @media only screen and (max-width : 605px){
+        
+    }
+    @media only screen and (max-width : 375px){
+     
+    }
+    
+    

@@ -1,0 +1,248 @@
+*{
+ margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow: hidden;
+font-size: 20px;
+    color: #fff;
+     font-weight: 300;
+    font-family: 'Lato',sans-serif;
+    text-rendering: optimizeLegibility;
+       background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(background-img.jpg);
+    background-position:bottom;
+    background-size: cover;
+    height: 100vh;
+}
+.section-login{
+    margin: 0;
+ 
+}
+h1{
+    text-transform: uppercase;
+    color: #fffcfc;
+    margin: 20px;
+}
+.chat-edit{
+    color:#e67e22; 
+}
+.log-content{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.log-content input{
+font-size: 80%;
+   color: #e67e22;
+    width: 300px;
+   
+    margin-top: 40px;
+    display: block;
+  
+}
+.password,.email{
+    outline: none;
+    height: 40px;
+    padding-bottom:10px;
+     border: 0;
+    background: transparent;
+     border-bottom: 2px solid #e67e22;
+}
+::-webkit-input-placeholder{
+    color:  #e67e22;
+    font-size:130%;
+    
+}
+::-moz-input-placeholder{
+    color:  #e67e22;
+}
+::-ms-input-placeholder{
+    color:  #e67e22;
+}
+.log-btn{
+    height: 40px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    background-color: rgba(34, 29, 29, 0.6);
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.log-btn:active,
+.log-btn:hover{
+background-color: rgb(34, 29, 29);
+color: rgba(230, 126, 34, 0.8);
+}
+
+form a {
+    text-decoration: none;
+}
+.poppap{
+opacity: 0;
+visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+height: 100vh; 
+    width: 100%;
+     background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+    background-position: top;
+    background-size: cover;
+    transition: all .3s;
+}
+#poppap:target{
+    visibility: visible;
+    opacity: 1;
+}
+.reg-back-img{
+    float: left;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(reg-img-form.jpg);
+    height:100%;
+    width:50%;
+    background-size: cover;
+    background-position: bottom;
+    
+}
+.register-form{
+    width: 45%;
+    height: 90vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.25);
+    background-color: rgb(236, 239, 241);
+    border-radius: 5px;
+    padding-right: 10px;
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+transition: all .4s .2s;
+}
+#poppap:target .register-form{
+    opacity: 1;
+ transform: translate(-50%,-50%) scale(1);
+}
+.reg-form{
+    float: right;
+    width: 50%;
+    margin-left: 0;
+    padding-left: 10px;
+   height: 100%;
+ 
+}
+.frm{
+
+}
+.frm input{
+font-size: 100%;
+   color: #e67e22;
+    width: 100%;
+  margin-right: 20px;
+    margin-top: 40px;
+    display: block;
+  
+        outline: none;
+    height: 6%;
+    padding-bottom:10px;
+     border: 0;
+    background: transparent;
+     border-bottom: 2px solid #04ca1e;
+  
+}
+.frm input::-webkit-input-placeholder{
+    color:  #e67e22;
+    font-size:100%;
+    
+}
+.frm input::-moz-input-placeholder{
+    color:  #e67e22;
+}
+.frm input::-ms-input-placeholder{
+    color:  #e67e22;
+}
+.frm input:last-child{
+    border: 0;
+    background-color: #ff9b42;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 5px;
+    width: 200px;
+    margin:30px 50px;
+      cursor: pointer;
+    transition: background-color 0.2s;
+    outline: none;
+    height: 40px;
+    
+}
+.frm input:last-child:hover{
+    background-color: #e67e22;
+}
+select{
+    color: #e67e22;
+  
+    height: 35px;
+    border: 0;
+    outline: none;
+    width: 50%;
+    text-align: center;
+   
+    margin-top: 5px;;
+}
+.stage{
+    width: 10%;
+    
+}
+
+.p-form{
+    display: inline-block;
+    font-size: 80%;
+    text-transform: uppercase;
+    color: #e67e22;
+margin-right:10px;
+}
+
+.poppap-close{
+    color: #777;
+    position: absolute;
+right: 10px;
+top: 6px;
+display: inline-block;
+font-size: 2.5rem;
+text-decoration: none;
+transition: all 0.2s;
+}
+.poppap-close:hover{
+    color: #e67e22;
+}
+.error{
+    height: auto;
+    margin-top: 20px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.616);
+    color: black;
+}
+.error_log_in{
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.397);
+    color: black;
+    border-radius: 10px;;
+}
+#accept{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    
+}
+#decline{
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

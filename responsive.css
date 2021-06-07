@@ -1,0 +1,116 @@
+
+
+
+@media only screen and (max-width : 1271px){
+select{
+    display: block;
+    width: 100%;
+
+}
+.stage{
+    overflow: scroll;
+}
+.frm input:last-child{
+margin-top:0px;
+margin-left:30px;
+
+
+}
+.frm input{
+    font-size: 80%;
+    height: 35px;
+}
+.register-form{
+    width: 50%;
+}
+
+
+}
+
+@media only screen and (max-width : 1094px){
+    .frm input:last-child{
+    
+        margin-left:35px;
+        
+        
+        }
+        .register-form{
+            width: 60%;
+        }
+}
+
+@media only screen and (max-width : 860px){
+    .frm input:last-child{
+    
+        margin-left:35px;
+        
+        
+        }
+        .register-form{
+            width: 70%;
+        }
+        /* .reg-form .frm{
+            background-color: aqua;
+            height:40vh;
+        }
+        .reg-form .frm input{
+           height: 3%;
+            
+        } */
+}
+
+
+@media only screen and (max-width : 720px){
+    .frm input:last-child{
+    
+        margin-left:25px;
+        
+        
+        }
+        .register-form{
+            width: 70%;
+        }
+}
+@media only screen and (max-width : 675px){
+    .frm input:last-child{
+    
+        margin-left:25px;
+        
+        
+        }
+        .register-form{
+            width: 80%;
+            
+        }
+      .reg-form .frm{
+          
+         height: 20px;
+      }
+}
+@media only screen and (max-width : 605px){
+    .frm input:last-child{
+    
+        margin-left:25%;
+        
+        
+        }
+        .register-form{
+            width: 80%;
+        }
+        .reg-back-img{
+            display: none;
+        }
+        .reg-form{
+width: 100%;
+float: none;
+        }
+}
+@media only screen and (max-width : 375px){
+    .frm input:last-child{
+    
+        margin-left:10%;
+        
+        
+        }
+}
+
